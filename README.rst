@@ -1,14 +1,12 @@
-Event-driven Network Automation and Orchestration: RIPE 76 tutorial
-===================================================================
+Event-driven Network Automation and Orchestration: APRICOT 2019 tutorial
+========================================================================
 
 Docker and Docker compose files to easily startup with Salt for Event-driven
 Network Automation and Orchestration.
 
-The files in this repository are used in my `RIPE 76 
-tutorial <https://ripe76.ripe.net/programme/meeting-plan/tutorials/>`_, 
+The files in this repository are used in my `APRICOT 2019 tutorial
+tutorial <https://2019.apricot.net/program/schedule/#/day/10/event-driven-network-automation-and-orchestration>`_,
 *Event-driven Network Automation and Orchestration*.
-
-The slides are available `<https://ripe76.ripe.net/presentations/17-RIPE76_-Event-driven-network-automation-and-orchestration.pdf>`_. 
 
 Please follow the installation notes for `Docker 
 <https://docs.docker.com/install/>`_ and `Docker Compose 
@@ -25,13 +23,13 @@ that the Proxy Minion is up and usable:
 
    .. code-block:: bash
 
-     git clone https://github.com/mirceaulinic/ripe76-tutorial.git
+     git clone https://github.com/mirceaulinic/apricot2019-tutorial.git
 
 2. Change dir:
 
    .. code-block:: bash
 
-     cd ripe76-tutorial
+     cd apricot2019-tutorial
 
 3. Edit the file ``pillar/device1_pillar.sls`` with the correct credentials of
    your device you want to manage.
